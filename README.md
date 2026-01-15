@@ -1,5 +1,9 @@
 # Career Switch Prediction Using Machine Learning
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/github/ahsanulfahim71/career-switch-prediction-ml/blob/main/notebooks/Career_Switch_Prediction_Project.ipynb)
+
+
 ## Overview
 This project applies machine learning techniques to predict whether a professional is likely to switch careers based on demographic, educational, and work-related attributes. The goal is to compare multiple models and evaluate their performance on an imbalanced, real-world dataset.
 
