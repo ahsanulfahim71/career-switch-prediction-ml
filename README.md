@@ -82,7 +82,7 @@ Due to class imbalance, models were evaluated using:
 
 ### ROC Curve Comparison
 <p align="center">
-  <img src="results/plots/roc_curve.png" width="650">
+  <img src="results/plots/roc_curve_comparison.png" width="650">
 </p>
 
 The ROC curve comparison highlights that the Decision Tree model achieves the highest AUC, indicating stronger overall class separation performance compared to KNN and MLP.
