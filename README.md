@@ -1,6 +1,6 @@
 # Career Switch Prediction Using Machine Learning
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 (https://colab.research.google.com/github/ahsanulfahim71/career-switch-prediction-ml/blob/main/notebooks/Career_Switch_Prediction_Project.ipynb)
 
 
