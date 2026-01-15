@@ -115,5 +115,6 @@ The confusion matrix for the Decision Tree model demonstrates a balanced trade-o
 
 ---
 
-## 📄 Documentation
-A detailed project report with full methodology, analysis, and additional visualizations is available in the `docs/` folder.
+## 📄 Project Paper
+[View the full project paper (PDF)](docs/Career%20Switch%20Prediction%20Using%20Machine%20Learning.pdf)
+
