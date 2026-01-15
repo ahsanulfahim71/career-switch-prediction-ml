@@ -70,13 +70,40 @@ Due to class imbalance, models were evaluated using:
 
 ## 🏆 Results Summary
 
+### Model Performance Comparison
+
 | Model | Accuracy | Precision | Recall | F1-score | AUC |
 |------|----------|-----------|--------|----------|-----|
 | KNN | 0.744 | 0.491 | 0.425 | 0.455 | 0.664 |
 | Decision Tree | **0.786** | **0.606** | 0.433 | **0.505** | **0.767** |
 | MLP (Neural Network) | 0.710 | 0.429 | **0.456** | 0.442 | 0.685 |
 
-Decision Tree performed best overall, achieving the highest accuracy, F1-score, and AUC, indicating a balanced and reliable performance. The model handled non-linear feature interactions effectively without extensive tuning.
+---
+
+### ROC Curve Comparison
+<p align="center">
+  <img src="results/plots/roc_curve.jpg" width="650">
+</p>
+
+The ROC curve comparison highlights that the Decision Tree model achieves the highest AUC, indicating stronger overall class separation performance compared to KNN and MLP.
+
+---
+
+### Model Accuracy Comparison
+<p align="center">
+  <img src="results/plots/accuracy_comparison.jpg" width="650">
+</p>
+
+This plot shows that the Decision Tree outperforms the other models in terms of accuracy while maintaining balanced performance on an imbalanced dataset.
+
+---
+
+### Confusion Matrix (Decision Tree)
+<p align="center">
+  <img src="results/plots/confusion_matrix_decision_tree.jpg" width="500">
+</p>
+
+The confusion matrix for the Decision Tree model demonstrates a balanced trade-off between precision and recall, supporting its selection as the best-performing model.
 
 ---
 
@@ -85,3 +112,8 @@ Decision Tree performed best overall, achieving the highest accuracy, F1-score, 
 - High dimensionality after encoding
 - Sensitivity of some models to feature scaling
 - Limited interpretability for neural networks
+
+---
+
+## 📄 Documentation
+A detailed project report with full methodology, analysis, and additional visualizations is available in the `docs/` folder.
