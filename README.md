@@ -82,7 +82,7 @@ Due to class imbalance, models were evaluated using:
 
 ### ROC Curve Comparison
 <p align="center">
-  <img src="results/plots/roc_curve.jpg" width="650">
+  <img src="results/plots/roc_curve.png" width="650">
 </p>
 
 The ROC curve comparison highlights that the Decision Tree model achieves the highest AUC, indicating stronger overall class separation performance compared to KNN and MLP.
@@ -91,7 +91,7 @@ The ROC curve comparison highlights that the Decision Tree model achieves the hi
 
 ### Model Accuracy Comparison
 <p align="center">
-  <img src="results/plots/accuracy_comparison.jpg" width="650">
+  <img src="results/plots/accuracy_comparison.png" width="650">
 </p>
 
 This plot shows that the Decision Tree outperforms the other models in terms of accuracy while maintaining balanced performance on an imbalanced dataset.
@@ -100,7 +100,7 @@ This plot shows that the Decision Tree outperforms the other models in terms of 
 
 ### Confusion Matrix (Decision Tree)
 <p align="center">
-  <img src="results/plots/confusion_matrix_decision_tree.jpg" width="500">
+  <img src="results/plots/confusion_matrix_decision_tree.png" width="500">
 </p>
 
 The confusion matrix for the Decision Tree model demonstrates a balanced trade-off between precision and recall, supporting its selection as the best-performing model.
